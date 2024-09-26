@@ -1,3 +1,6 @@
+/*I put comments into my code to help me learn more about what the code is doing*/
+
+/*Here I created a selector which targets all the body elements in the html*/
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
