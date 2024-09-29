@@ -1,23 +1,31 @@
-/*I put comments into my code to help me learn more about what the code is doing*/
+/*I put comments into my code to help me learn more about what the code is doing, I will only comment above properties that I do
+not fully understand*/
 
 /*Here I created a selector which targets all the body elements in the html*/
 body {
+    /*Adds a background image for us to see and has url. Image will display inside any */
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    /*This property sets the font type */
     font-family: sans-serif;
+    /*creates space around an element*/
     padding: 20px;
   }
-
+/*targets all h1 elements in the html, h1 is used to create a title and is the largest that you can create*/
   h1 {
+/*Changes the size of the font*/
     font-size: 40px;
+/*This property is used to create space above the element*/
     margin-top: 0;
+/*This property is used to create spcace below the element*/
     margin-bottom: 15px;
   }
-
+/*Selector for all h2, which is the second biggest title element you can create*/
   h2 {
     font-size: 30px;
   }
-
+/*This is a class selector, we know that it is a class selector because of the period(.)*/
   .established {
+      /*font style allows you to apply styles like bold, italic, and many other*/
     font-style: italic;
   }
 
@@ -39,7 +47,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-
+/*The <hr> element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.*/
   hr {
     height: 2px;
     background-color: brown;
